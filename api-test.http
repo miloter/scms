@@ -1,0 +1,12 @@
+###
+POST http://localhost:5173/admin/categories
+Content-Type: application/json
+Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoxLCJ1c2VybmFtZSI6InNjbXMifSwiaWF0IjoxNzM0NDc1ODYyLCJleHAiOjE3MzQ5MDc4NjJ9.7205BJDVCwIpHRoFn74fqdjnjqyZRVfPUhNPwwJ5nxs
+
+{
+    "description": "Java"
+}
+
+###
+GET http://localhost:5173/admin/config
+Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoxLCJ1c2VybmFtZSI6InNjbXMifSwiaWF0IjoxNzM0NDc1ODYyLCJleHAiOjE3MzQ5MDc4NjJ9.7205BJDVCwIpHRoFn74fqdjnjqyZRVfPUhNPwwJ5nxs

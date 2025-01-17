@@ -1,0 +1,25 @@
+{
+  "name": "scms",
+  "version": "1.0.0",
+  "description": "Primera aplicación con Node.js",
+  "main": "scms.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scms.js"
+  },
+  "author": "miloter",
+  "license": "MIT",
+  "dependencies": {
+    "@miloter/simil-words": "^1.0.1",
+    "@miloter/sqllikecompiler": "^1.1.0",
+    "@miloter/tablelogic": "^1.0.1",
+    "@miloter/text-validator": "^1.1.2",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5"
+  }
+}

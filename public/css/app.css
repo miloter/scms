@@ -1,0 +1,9 @@
+/* Para que no se muestre HTML hasta que Vue haya montado la aplicación */
+[v-cloak] {
+    display: none;
+}
+
+/* Para que las vistas v-show funcionen correctamente con Bootstrap */
+*[style*="display: none"] {
+    display: none !important;
+}
