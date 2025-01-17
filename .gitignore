@@ -4,3 +4,4 @@ public/uploads/*
 
 .env
 package-lock.json
+api-test.http
